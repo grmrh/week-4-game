@@ -1,10 +1,24 @@
-.attacker-area, .oppontent-area  {
-    border: 2px solid black;
+.attacker-area, .enemy-area, .fight-area, .defender-area {
+    float: right;
+    /* border: 2px solid black; */
     padding-top: 1rem;
+}
+.attacker-area  div, .enemy-area > div, .fight-area  div, .defender-area  div {
+    width: 160px;
+    height: 155px;
+    margin-left: 20px;
+}
+.enemy-area > div {
+    float: right;
 }
 /* .oppontent-area  {
     border: 2px solid black;
 } */
 .play-area {
     margin-top: 3em;
+}
+
+.card-footer {
+    font-weight: bolder;
+    font-size: larger;
 }
