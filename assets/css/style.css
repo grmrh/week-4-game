@@ -1,0 +1,10 @@
+.attacker-area, .oppontent-area  {
+    border: 2px solid black;
+    padding-top: 1rem;
+}
+/* .oppontent-area  {
+    border: 2px solid black;
+} */
+.play-area {
+    margin-top: 3em;
+}
